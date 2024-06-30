@@ -19,7 +19,7 @@ jobs:
           python-version: "3.x"
 
       - name: setuptools
-        run: python -m pip install -U setuptools
+        run: python -m pip install -U setuptools requests
         
       - name: build
         run: python setup.py install
