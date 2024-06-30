@@ -12,7 +12,7 @@ def sdesc():
 
 setup(
     name='my_gh_package',
-    version='1.5.3',
+    version='1.5.4',
     description=sdesc(),
     long_description='Some random long description',
     long_description_content_type='text/markdown',
