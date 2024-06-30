@@ -11,7 +11,7 @@ def sdesc():
 
 
 setup(
-    name='myghpackage',
+    name='my_gh_package',
     version='1.0.1',
     description=sdesc(),
     long_description='Some random long description',
