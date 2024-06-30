@@ -19,7 +19,8 @@ setup(
     author='Rotem Reiss',
     author_email='rreiss@wearehackerone.com',
     install_requires=[
-        'requests'
+        'requests',
+        'atlassian-python-api'
     ],
     license="MIT"
 )
