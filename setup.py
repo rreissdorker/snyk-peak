@@ -11,16 +11,13 @@ def sdesc():
 
 
 setup(
-    name='pytest',
-    version='8.3.0',
+    name='snyk-peak',
+    version='1.5.0',
     description=sdesc(),
-    long_description='Some random long description',
-    long_description_content_type='text/markdown',
     author='Rotem Reiss',
     author_email='rreiss@wearehackerone.com',
     install_requires=[
-        'requests',
-        'atlassian-python-api'
+        'requests'
     ],
     license="LGPL 3.0"
 )
